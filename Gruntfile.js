@@ -24,13 +24,13 @@ module.exports = function(grunt) {
       }
     },
     watch: {
-        scripts: {
-            files: ['sass/*.sass'],
-            tasks: ['sass'],
-            options: {
-                spawn: false,
-            },
-        }
+      scripts: {
+        files: ['sass/*.sass'],
+        tasks: ['sass'],
+        options: {
+          spawn: false,
+        },
+      }
     }
 
   });
